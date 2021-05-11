@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root{
-    --primary-dark: #222831;
+    --primary-dark: #1a1a2e;
     --primary-light: #413d65;
     --primary-white: #5fb9b0;
 }
@@ -41,7 +41,13 @@ body{
 
 .dark-input{
     border: 1px solid #0000004a;
-    background-color: hsl(216deg 18% 15%);
+    color: whitesmoke;
+    background-color: hsl(240deg 28% 11%);
+}
+
+.dark-input:focus{
+    color: whitesmoke;
+    background-color: hsl(240deg 28% 11%);
 }
 
 .gray-label{

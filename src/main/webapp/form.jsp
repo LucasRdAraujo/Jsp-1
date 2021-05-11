@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <%
-        String nome=request.getParameter("nome");
-        String sobrenome=request.getParameter("sobrenome");
-    %>
+        <%
+            String nome=request.getParameter("nome");
+            String sobrenome=request.getParameter("sobrenome");
+        %>
         <div class="container">
             <div class="row">
                 <div class="col"><img src="https://data.whicdn.com/images/327767201/original.jpg"

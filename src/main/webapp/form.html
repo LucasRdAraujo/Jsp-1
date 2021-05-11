@@ -14,20 +14,27 @@
 
 <body>
     <div class="container-fluid">
-        <div id="form-content" class="row">
-            <div id="form-info" class="col-md p-4">
+        <div id="form-content" class="row text-light">
+            <div id="form-area" class="col-md p-4">
+                <h2>Olá! bem vindo!</h2>
+                <p>Estamos muito animados por ver você aqui!</p>
+                <form action="form.jsp" method="get">
+                    <div class="form-group mb-3">
+                        <label for="inputNome" class="gray-label">Nome</label>
+                        <input type="text" name="nome" class="form-control dark-input" id="inputNome">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputSobrenome" class="gray-label">Sobrenome</label>
+                        <input type="text" name="sobrenome" class="form-control dark-input" id="inputSobrenome">
+                    </div>
+                    <button type="submit" class="btn btn-fit btn-danger">Entrar</button>
+                </form>
+            </div>
+            <div id="form-info" class="col-md-5 p-4">
                 <h2>Alguma info aqui</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius saepe, odio iusto sequi nulla a
                     eveniet ad alias cumque ipsum? Expedita ex asperiores dicta quos perspiciatis quo, sed quasi
                     pariatur.</p>
-            </div>
-            <div id="form-area" class="col-md p-4">
-                <h2>Formulário</h2>
-                <form action="form.jsp" method="get">
-                    <input type="text" name="nome">
-                    <input type="text" name="sobrenome">
-                    <input type="submit">
-                </form>
             </div>
         </div>
         <!-- <footer id="footer" class="row p-4">

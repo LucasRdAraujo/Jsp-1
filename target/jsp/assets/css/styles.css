@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root{
+    --primary-dark: #1a1a2e;
+    --primary-light: #413d65;
+    --primary-white: #5fb9b0;
+}
+
+body{
+    background-color: var(--primary-dark);
+    background-image: url(../svg/footer-wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -14em;
+    background-position-x: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form-content{
+    box-shadow: 0 0 10px #00000036;
+    background-color: var(--primary-dark);
+    margin: 10%;
+    border-radius: 5px;
+}
+
+#form-area{
+    border-radius: 5px 0px 0px 5px;
+}
+
+#form-info{
+    border-radius: 0px 5px 5px 0px;
+}
+
+#footer{
+    background-color: var(--primary-light);
+}
+
+.btn-fit{
+    width: 100%;
+}
+
+.dark-input{
+    border: 1px solid #0000004a;
+    color: whitesmoke;
+    background-color: hsl(240deg 28% 11%);
+}
+
+.dark-input:focus{
+    color: whitesmoke;
+    background-color: hsl(240deg 28% 11%);
+}
+
+.gray-label{
+    color: gray;
+}
+
+@media only screen and (max-width: 735px) {
+    body{
+        background-position-y: 7em;
+    }
+    #form-content{
+        margin: 0;
+    }
+}
